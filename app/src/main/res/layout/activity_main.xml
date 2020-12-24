@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:visibility="visible"
+              android:background="@color/backgroundColor"
+              android:paddingHorizontal="10sp"
+              android:orientation="vertical">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="AGE TO MINUTE CALCULATOR"
+              android:gravity="center_horizontal"
+              android:textSize="20sp"
+              android:background="@color/headColor"
+              android:textColor="@android:color/white"
+              android:cursorVisible="true"
+              android:paddingVertical="10sp"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="CALCULATE YOUR"
+              android:gravity="center_horizontal"
+              android:textSize="30sp"
+              android:textColor="#6FFF3D00"
+              android:cursorVisible="true"
+              android:padding="15sp"
+              android:fontFamily="sans-serif-condensed"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="AGE"
+              android:layout_gravity="center_horizontal"
+              android:textSize="30sp"
+              android:textColor="@android:color/white"
+              android:background="@android:color/holo_blue_dark"
+              android:cursorVisible="true"
+              android:padding="20sp"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="IN MINUTES"
+              android:gravity="center_horizontal"
+              android:textSize="30sp"
+              android:textColor="#6FFF3D00"
+              android:cursorVisible="true"
+              android:padding="15sp"
+              android:fontFamily="sans-serif-condensed"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your birthday"
+        android:id="@+id/pickDateButton"
+    />
+ <!--   <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/picker"
+        android:visibility="invisible"
+    /> --> <!-- to test after -->
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="selected date"
+              android:gravity="center_horizontal"
+              android:textSize="10sp"
+              android:textColor="@android:color/darker_gray"
+              android:cursorVisible="true"
+              android:padding="15sp"
+              android:fontFamily="sans-serif-condensed"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="you age in minutes is"
+              android:gravity="center_horizontal"
+              android:textSize="10sp"
+              android:textColor="@android:color/darker_gray"
+              android:cursorVisible="true"
+              android:padding="15sp"
+              android:fontFamily="sans-serif-condensed"/>
+
+</LinearLayout>
+
